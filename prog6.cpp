@@ -15,6 +15,7 @@ int main(int argc, char **argv)
 	if (r == 0) {
 		srand(r);
 		sum = rand() % 100 + 1;
+		printf("%d\n", sum);
 		total_sum += sum;
 		for (int i = 1; i < s; i++)
 		{
